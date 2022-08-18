@@ -25,9 +25,10 @@ Vascular lesion
 2. Dataset Creation: train & validation dataset from train directory with a batch size of 32, image resized to 180*180.
 3. Dataset visualisation 
 4. Define CNN architecture, model Building & training by rescaling images to normalize pixel values between (0,1).
-
 5. Data Augmentation to resolve overfitting 
 6. Handling class imbalances: Rectify class imbalances present in the training dataset with Augmentor library.
 
+### Conclusion:
 
+The initial model overfit on training data. Model performace was improved through dropout, data augmentation and addressing class imbalance. Batch normalization was also tried but dropped in the second version of the model that was created to improve overall model accuracy. This final version of the model shows reduced divergence between training and validation set
 
